@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gráfico da equação</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body class="body"> 
+    <div><h1><marquee  behavior="slide" bgcolor:white color:purple ><A > Calculando Equação</A></marquee></h1>
+            <p>A: <input type="text" id="a"></p>
+            <p>B: <input type="text" id="b"></p>
+            <p>C: <input type="text" id="c"></p>
+            <p> <button onclick="fun()">Calcular</button></p>
+            <p>Delta : <span id="deltar"></span></p>
+            <p>Raiz 1 : <span id="resultado1"></span></p>
+            <p>Raiz 2 : <span id="resultado2"></span></p></div>
+        
+        <hr></hr><h1><marquee  behavior="slide" bgcolor:white color:black><A> Gráfico da Equação</A></marquee></h1>
+        <div id="cardboard"></div>
+        <p> A: <input type="number" id="A"></p>
+        <p> B: <input type="number" id="B"></p>
+        <p> C: <input type="number" id="C"></p>
+        <p><button onclick="main()">Desenhar</button></p>  
+        <canvas id="canvas1" width="500" height="500" style="border:1px black solid;"></canvas>
+       
+</body>
+</html>

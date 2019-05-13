@@ -1,0 +1,19 @@
+body{
+    margin-left:200px;
+    margin-left:auto;
+    margin-right:auto;
+    height:1100px;
+    width:400px;
+    background-color: rgba(196, 192, 255, 0.849);
+    text-align: center;
+    padding:8px;
+    background-image:url(colorido2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  h1{
+    color: #555(122, 3, 158)
+  }
+  p{
+    color:blue(88, 3, 114)
+  }
